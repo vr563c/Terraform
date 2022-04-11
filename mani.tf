@@ -49,8 +49,8 @@ provider   "azurerm"   {
    resource_group_name     =   azurerm_resource_group.rg.name 
    network_interface_ids   =   [ azurerm_network_interface.myvm 1 nic.id ] 
    size                    =   "Standard_B1s" 
-   admin_username          =   "adminuser" 
-   admin_password          =   "Password123!" 
+   admin_username          =   "vr563c@att.com" 
+   admin_password          =   "Venk@t2022" 
 
    source_image_reference   { 
      publisher   =   "MicrosoftWindowsServer" 
